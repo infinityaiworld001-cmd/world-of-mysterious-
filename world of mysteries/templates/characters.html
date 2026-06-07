@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Characters - World of Mysteries</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="nav-container">
+        <a href="{{ url_for('home') }}" class="logo">World of <span>Mysteries</span></a>
+
+        <div class="nav-links">
+            <a href="{{ url_for('home') }}">Home</a>
+            <a href="{{ url_for('characters') }}">Characters</a>
+            <a href="{{ url_for('kingdoms') }}">Kingdoms</a>
+            <a href="{{ url_for('aura') }}">Aura System</a>
+            <a href="{{ url_for('sea_gates') }}">Sea Gates</a>
+            <a href="{{ url_for('chapters') }}">Chapters</a>
+            <a href="{{ url_for('about') }}">About</a>
+        </div>
+    </div>
+</nav>
+
+<header class="page-header">
+    <h1>Characters</h1>
+    <p>
+        Meet the young warriors, rivals, teachers, and powerful students who shape
+        the beginning of World of Mysteries.
+    </p>
+</header>
+
+<section class="section">
+    <div class="section-title">
+        <span>FIRST GENERATION</span>
+        <h2>Main Characters</h2>
+        <p>These characters begin the journey inside the Warrior Academy of Sea.</p>
+    </div>
+
+    <div class="grid-3">
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/kai.png') }}" alt="Kai Flameson">
+            <div class="card-content">
+                <h3>Kai Flameson</h3>
+                <p>
+                    Kai is a calm and serious fire aura user. He does not know the
+                    full truth of his bloodline in the beginning, but he carries
+                    mysterious fire energy connected to the destroyed Fire Kingdom.
+                </p>
+                <div class="tag-row">
+                    <span class="tag">Age: 16</span>
+                    <span class="tag">Fire Aura</span>
+                    <span class="tag">Silent Hero</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/jinga.png') }}" alt="Jinga Flameson">
+            <div class="card-content">
+                <h3>Jinga Flameson</h3>
+                <p>
+                    Jinga is Kai's cheerful younger brother. He is funny, emotional,
+                    and hungry most of the time, but he has hidden Ice Aura potential
+                    that may awaken as the story grows.
+                </p>
+                <div class="tag-row">
+                    <span class="tag">Age: 15</span>
+                    <span class="tag">Ice Aura</span>
+                    <span class="tag">Comedy Heart</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/tyson.png') }}" alt="Tyson Hattari">
+            <div class="card-content">
+                <h3>Tyson Hattari</h3>
+                <p>
+                    Tyson is a skilled warrior from the Wind Kingdom. He first becomes
+                    suspicious of Kai's fire aura and later becomes both rival and ally
+                    during academy life.
+                </p>
+                <div class="tag-row">
+                    <span class="tag">Age: 16</span>
+                    <span class="tag">Wind Aura</span>
+                    <span class="tag">Rival Ally</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="section-title">
+        <span>ACADEMY POWERHOUSES</span>
+        <h2>Elite Characters</h2>
+        <p>Strong warriors and mysterious figures who influence the academy arc.</p>
+    </div>
+
+    <div class="grid-3">
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/eresawa.png') }}" alt="Eresawa">
+            <div class="card-content">
+                <h3>Eresawa</h3>
+                <p>
+                    Eresawa is a legendary teacher at the Warrior Academy of Sea.
+                    Calm, dangerous, and mysterious, he has the ability to suppress
+                    or erase aura during training.
+                </p>
+                <div class="tag-row">
+                    <span class="tag">Teacher</span>
+                    <span class="tag">Mystery Aura</span>
+                    <span class="tag">Legendary</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/free_dela.png') }}" alt="Free Dela">
+            <div class="card-content">
+                <h3>Free Dela</h3>
+                <p>
+                    Free Dela is considered one of the strongest students in the academy.
+                    He is hardworking, silent, and carries an intimidating warrior
+                    presence among the first-year students.
+                </p>
+                <div class="tag-row">
+                    <span class="tag">Elite Student</span>
+                    <span class="tag">Hard Work</span>
+                    <span class="tag">Strongest Presence</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/lui.png') }}" alt="Lui">
+            <div class="card-content">
+                <h3>Lui</h3>
+                <p>
+                    Lui is a dangerous and mysterious student with blue flame energy.
+                    His aura feels unstable, powerful, and frightening, making him one
+                    of the most feared figures in the academy.
+                </p>
+                <div class="tag-row">
+                    <span class="tag">Blue Flame</span>
+                    <span class="tag">Dangerous</span>
+                    <span class="tag">Mysterious</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="story-box">
+        <h2>Character Theme</h2>
+        <p>
+            World of Mysteries focuses on friendship, rivalry, hidden identity,
+            academy growth, ancient war secrets, and the emotional journey of young
+            warriors. Each character is designed to carry a unique personality,
+            aura type, and future role in the larger mystery of the Seven Kingdoms.
+        </p>
+    </div>
+</section>
+
+<footer class="footer">
+    <p>© 2026 <span>World of Mysteries</span> | Created by I.M.Kumar</p>
+</footer>
+
+</body>
+</html>
